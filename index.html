@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWise - Explore the World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <h1 class="logo">WanderWise</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+
+        <a href="#explore" class="search-btn">Explore Now</a>
+    </div>
+</header>
+<main>
+    <section class="hero" id="explore">
+        <h2>Discover Your Next Adventure</h2>
+        <p>Find amazing places, comfortable stays, and unforgettable experiences.</p>
+
+        <form class="search-form">
+            <input
+                type="text"
+                placeholder="Where do you want to go?"
+                aria-label="Search destination"
+            >
+
+            <select aria-label="Minimum rating">
+                <option value="">Any rating</option>
+                <option value="3">3+ stars</option>
+                <option value="4">4+ stars</option>
+                <option value="5">5 stars</option>
+            </select>
+
+            <button type="button">Search</button>
+        </form>
+    </section>
+<section class="destinations" id="destinations">
+    <h2>Popular Destinations</h2>
+    <p>Beautiful places waiting to be explored.</p>
+
+    <div class="destination-grid">
+        <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Beautiful mountain peaks">
+            <div class="card-content">
+                <h3>Mountain Escape</h3>
+                <p>Enjoy peaceful mountains and breathtaking views.</p>
+                <span>★★★★★ 4.8/5</span>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80" alt="Sunny beach">
+            <div class="card-content">
+                <h3>Tropical Paradise</h3>
+                <p>Relax on sunny beaches beside crystal-clear water.</p>
+                <span>★★★★★ 4.9/5</span>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=600&q=80" alt="City skyline">
+            <div class="card-content">
+                <h3>City Adventures</h3>
+                <p>Discover exciting streets, culture, and nightlife.</p>
+                <span>★★★★☆ 4.6/5</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="listing-section" id="hotels">
+    <h2>Popular Hotels</h2>
+    <p>Find your perfect place to stay.</p>
+
+    <div class="destination-grid">
+        <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80" alt="Luxury hotel with swimming pool">
+            <div class="card-content">
+                <h3>Ocean View Resort</h3>
+                <p>Relax in comfort with beautiful views and a swimming pool.</p>
+                <span>★★★★★ 4.9/5</span>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=600&q=80" alt="Elegant hotel">
+            <div class="card-content">
+                <h3>Green Valley Stay</h3>
+                <p>Enjoy a peaceful getaway surrounded by nature.</p>
+                <span>★★★★☆ 4.7/5</span>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=600&q=80" alt="Resort with swimming pool">
+            <div class="card-content">
+                <h3>Sunrise Retreat</h3>
+                <p>A relaxing stay with welcoming service and modern rooms.</p>
+                <span>★★★★☆ 4.6/5</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="listing-section" id="restaurants">
+    <h2>Top-Rated Restaurants</h2>
+    <p>Discover delicious food wherever you travel.</p>
+
+    <div class="destination-grid">
+        <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Cozy restaurant interior">
+            <div class="card-content">
+                <h3>The Garden Table</h3>
+                <p>Fresh ingredients and a welcoming dining atmosphere.</p>
+                <span>★★★★★ 4.8/5</span>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Modern restaurant">
+            <div class="card-content">
+                <h3>Spice & Soul</h3>
+                <p>Explore flavorful dishes inspired by local cuisine.</p>
+                <span>★★★★☆ 4.7/5</span>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80" alt="Beautifully presented restaurant meal">
+            <div class="card-content">
+                <h3>The Cozy Corner</h3>
+                <p>Enjoy memorable meals in a relaxed setting.</p>
+                <span>★★★★☆ 4.6/5</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="about">
+        <h2>About WanderWise</h2>
+        <p>We help you discover wonderful places for your next journey.</p>
+    </section>
+</main>
+<footer class="site-footer">
+    <h2>WanderWise</h2>
+    <p>Discover places. Create memories.</p>
+
+    <div class="footer-links">
+        <a href="#destinations">Destinations</a>
+        <a href="#hotels">Hotels</a>
+        <a href="#restaurants">Restaurants</a>
+        <a href="#about">About Us</a>
+    </div>
+
+    <p class="copyright">
+        &copy; 2026 WanderWise. All rights reserved.
+    </p>
+</footer>
+</body>
+</html>
